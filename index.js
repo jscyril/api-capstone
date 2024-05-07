@@ -13,8 +13,8 @@ app.use(express.static("public"));
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_Key = process.env.API_Key;
-const lat = "13.036176";
-const long = "77.505330";
+const lat = "";
+const long = "";
 
 app.get("/", async (req, res) => {
   try {
